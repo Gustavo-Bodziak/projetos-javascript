@@ -1,0 +1,42 @@
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container h1 {
+    color: #ffffff; 
+}
+
+.container button {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.container .start-btn {
+    background-color: #008000;
+}
+
+.container .pause-btn {
+    background-color: #888686;
+}
+
+.container .stop-btn {
+    background-color: #ff0000;
+}
+
+.container p {
+    margin-top: 20px;
+    color: white;
+}
