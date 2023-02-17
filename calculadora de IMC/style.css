@@ -1,0 +1,97 @@
+body {
+    background-color: #F7F7FF;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: #23B5D3;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 0px #1a1a19;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+.content h1 {
+    margin-top: 0px;
+}
+
+.content h1, .content h2 {
+    color: #ffffff;
+}
+
+.content .input-wrapper {
+    width: 100%;
+}
+
+.content .input-wrapper input {
+    height: 3em;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    width: 99%;
+}
+
+.content button {
+    width: 100%;
+    margin-top: 3em;
+    height: 3.6em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: #1a1a19;
+    color: white;
+    transition: background-color 200ms ease;
+}
+
+.content button:hover {
+    cursor: pointer;
+    background-color: #0c0c0b;
+}
+
+.content .result {
+    margin-bottom: 0;
+    color: white;
+    border-radius: 0.3em;
+    padding: 1.2em;
+    text-align: center;
+    display: none;
+}
+
+.content .result.blue {
+    background-color: #79b2f4;
+    display: block;
+}
+
+.content .result.green {
+    background-color: #008000;
+    display: block;
+}
+
+.content .result.yellow {
+    background-color: #ffff00;
+    display: block;
+}
+
+.content .result.orange {
+    background-color: #ffa500;
+    display: block;
+}
+
+.content .result.red {
+    background-color: #ff0000;
+    display: block;
+}
+
